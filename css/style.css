@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI';
+    color:orangered;
+    background-color:  black;
+  }
+
+  footer{
+    padding-top:20px;
+    margin-right: 100px;
+    text-align: right;
+  }
+
+  main{
+    display:flex;
+  }
+
+  .page-name {
+    font-size: 60px;
+    font-weight: bolder;
+    color: orangered;
+  }
+
+  .active {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    color: orangered;
+  }
+  
+  .navbar {
+    float: left;
+    width: 20%;
+    font-size: 35px;
+    margin: 30px;
+    font-weight: 1;
+  }
+  
+  .navbar a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .navbar a:hover {
+    color: orangered;
+    font-weight: 700;
+    animation-name: hovering;
+    animation-duration: 100ms;
+  }
+
+  
+  @keyframes hovering{
+    from{font-weight: 1;}
+    to{font-weight: 700;}
+  }
+
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home {
+    height: 300px;
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .blog .page-content .home{
+    color:white;
+    width: 80%;
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .shirts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    column-gap: 40px;
+    margin-right: 10px;
+  }
+
+  .shirts div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: large;
+  }
+
+  .shirts img {
+    padding-bottom: 10px;
+    max-width: 300px;
+  }
