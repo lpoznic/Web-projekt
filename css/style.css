@@ -1,23 +1,52 @@
-body {
+  body {
     font-family: 'Segoe UI';
-    color:orangered;
+    color:#FF6700;
     background-color:  black;
   }
 
+  h1{
+    font-weight: 300;
+    font-size:2.8vw;
+    margin-top:-0.5%;
+    margin-left:1.6%;
+    text-transform: lowercase;
+  }
+
+  p{
+    font-size:1.6vw;
+    margin:1.6%;
+    margin-right: 20%;
+    font-weight: 300;
+  }
+
   footer{
-    padding-top: 20px;
+    padding-top: 300px;
     margin-right: 100px;
     text-align: right;
+    font-weight: 300;
   }
 
   main{
     display:flex;
   }
 
+  .ig{
+    filter: invert(71%) 
+    sepia(85%) saturate(6519%) 
+    hue-rotate(5deg) brightness(109%) 
+    contrast(103%);
+  }
+
+  .page-content a{
+    color:#FF6700;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
   .page-name {
-    font-size: 70px;
+    font-size: 5vw;
     font-weight: bolder;
-    color: orangered;
+    color: #FF6700;
   }
 
   .page-content{
@@ -30,15 +59,15 @@ body {
     color:black;
     font-weight: bold;
     text-decoration: none;
-    color: orangered;
+    color: #FF6700;
+    text-decoration: underline;
   }
   
   .navbar {
     width: 15%;
-    font-size: 35px;
+    font-size: 2.3vw;
     margin-left: 1%;
     font-weight: 1;
-
   }
   
   .navbar a {
@@ -49,10 +78,10 @@ body {
 
 
   .navbar a:hover {
-    color: orangered;
+    color: #FF6700;
     font-weight: 700;
     animation-name: hovering;
-    animation-duration: 100ms;
+    animation-duration: 150ms;
   }
 
   
@@ -85,15 +114,18 @@ body {
     flex-direction: column;
     align-items: center;
     color: wheat;
-    font-size: large;
+    font-size: 1vw;
   }
 
   .shirts img {
     padding-bottom: 10px;
-    max-width: 300px;
+    max-width: 23vw;
   }
 
   .page-content p{
     color:wheat;
-    padding-left: 2%;
   }
+
+
+  
+
